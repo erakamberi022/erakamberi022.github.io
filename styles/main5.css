@@ -26,5 +26,13 @@ img {
 main {
     clear: left;
 }
+main h3 {
+    margin-top: 3em;
+    font-size: 105%;
+}
+#id {
+    line-height: 105%;
+}
+
 
 
