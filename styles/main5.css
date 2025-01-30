@@ -17,3 +17,6 @@ header h2 {
     color:hotpink;
     text-indent: 30px;
 }
+img {
+    float: left;
+}
