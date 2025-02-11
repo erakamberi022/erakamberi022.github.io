@@ -11,6 +11,10 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+    background-image: url("")
+    background-position: right;
+    background-repeat: repeat y;
+    background-attachment: 
 }
 a:hover, a:focus {
     font-style:italic;
@@ -36,7 +40,7 @@ main {
     clear: left;
 }
 main h3 {
-    margin-top: 3em;
+    margin-top: 3em 2em 1.5em;
     font-size: 105%;
 }
 #id {
