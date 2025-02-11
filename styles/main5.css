@@ -42,6 +42,10 @@ main {
 main h3 {
     margin-top: 3em 2em 1.5em;
     font-size: 105%;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
 }
 #id {
     line-height: 105%;
