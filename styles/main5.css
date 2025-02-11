@@ -58,6 +58,11 @@ main nav {
     line-height: 105%;
 }
 main div {
+    margin: 1.5em 2em 0 2em 2em;
+    border: 5px dotten blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px;
+    padding: 1em;
     
 }
 footer p.copyright {
