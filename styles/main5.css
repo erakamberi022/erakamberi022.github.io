@@ -13,7 +13,7 @@ body {
     box-shadow: 5px 5px 0 0;
     background-image: url("../images/vscodeimage.jpeg");
     background-position: right;
-    background-repeat: repeat y;
+    background-repeat: repeat-y;
     background-attachment: fixed;
 }
 a:hover, a:focus {
