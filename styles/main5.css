@@ -14,7 +14,7 @@ body {
     background-image: url("")
     background-position: right;
     background-repeat: repeat y;
-    background-attachment: 
+    background-attachment: fixed;
 }
 a:hover, a:focus {
     font-style:italic;
@@ -30,8 +30,9 @@ header h2 {
     color:hotpink;
     text-indent: 30px;
 }
-img {
+header img {
     float: left;
+    margin-left: 
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
