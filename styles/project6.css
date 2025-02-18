@@ -71,6 +71,8 @@ footer {
 footer p.copyright {
     text-align: center;
     font-size: 80%;
+    border-top: 2pm solid maroon;
+
 }
 p.fixed {
     width: auto;
