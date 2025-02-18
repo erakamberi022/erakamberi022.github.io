@@ -63,6 +63,11 @@ aside {
     float: right;
     background-color: lightpink;
 }
+footer {
+    clear: both;
+    border-top: 2pm solid maroon;
+    
+}
 footer p.copyright {
     text-align: center;
     font-size: 80%;
