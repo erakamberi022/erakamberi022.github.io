@@ -14,13 +14,10 @@ body {
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
-
-a:hover, a:focus {
-    font-style:italic;
-    color:lightpink;
-    border: 3px blue;
-    border-style: dotted solid;
-}
-header {
-    border-bottom: 2px solid maroon;
+aside {
+    width: 20%;
+    float: right;
+    background-color: lightpink;
+    padding-left: 1em;
+    padding-bottom: 1em;
 }
