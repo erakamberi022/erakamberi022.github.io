@@ -20,5 +20,5 @@ aside {
     background-color: lightblue;
     padding-left: 1em;
     padding-bottom: 1em;
-    border: 4px darkblue;
+    border-radius: 4px darkblue;
 }
