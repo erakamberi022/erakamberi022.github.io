@@ -41,10 +41,4 @@ footer p.copyright {
     font-size: 80%;
 }
 
-a:hover, a:focus {
-    font-style:italic;
-    color:lightpink;
-    border: 3px blue;
-    border-style: dotted solid;
-}
 
