@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
 }
 aside {
-    position: sticky;
+    position: absolute;
     width: 20%;
     float: right;
     background-color: lightblue;
