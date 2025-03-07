@@ -16,11 +16,14 @@ body {
 }
 aside {
     width: 20%;
-    float: right;
     background-color: lightblue;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    border-radius: 4px darkblue;
+    padding: 1em;
+    border: 2px solid darkblue;
+    border-radius: 4px; 
+    position: sticky; 
+    top: 0; 
+    height: 100vh; 
+    overflow-y: auto;
 }
 
 article p::first-letter {
