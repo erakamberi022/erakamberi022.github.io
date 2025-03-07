@@ -15,12 +15,12 @@ body {
     background-attachment: fixed;
 }
 aside {
-    width: 20%;
+    width: auto;
     background-color: lightblue;
     padding: 1em;
     border: 2px solid darkblue;
     border-radius: 4px; 
-    position: sticky; 
+    position: fixed; 
     float: right;
 }
 
@@ -40,12 +40,11 @@ footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
-p.fixed {
-    width: auto;
-    position: fixed;
-    bottom: 15%;
-    right: 0;
-    border: 3px solid gray;
-    background-color: lightgrey;
-    padding: 1em;
+
+a:hover, a:focus {
+    font-style:italic;
+    color:lightpink;
+    border: 3px blue;
+    border-style: dotted solid;
 }
+
