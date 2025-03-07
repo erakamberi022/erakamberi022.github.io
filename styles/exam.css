@@ -14,7 +14,7 @@ body {
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
-    aside {
+aside {
         width: 20%;
         float: right;
         background-color: lightblue;
