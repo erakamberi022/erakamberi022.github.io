@@ -14,15 +14,13 @@ body {
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
-aside {
-    width: 20%;
-    background-color: lightblue;
-    padding: 1em;
-    border: 2px solid darkblue;
-    border-radius: 4px; 
-    position: fixed; 
-    float: right;
-}
+    aside {
+        width: 20%;
+        float: right;
+        background-color: lightblue;
+        padding-left: 1em;
+        padding-bottom: 1em;
+    }
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
