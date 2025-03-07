@@ -23,6 +23,11 @@ aside {
     position: fixed; 
     float: right;
 }
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
+
+}
 
 article p::first-letter {
     font-size: 3em;
@@ -31,11 +36,6 @@ article p::first-letter {
     color: black;
 }
 
-footer {
-    clear: both;
-    border-top: 2px solid darkblue;
-
-}
 footer p.copyright {
     text-align: center;
     font-size: 80%;
