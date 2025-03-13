@@ -27,6 +27,8 @@ article h1 {
     font-size: 175%;
     color: blue;
     text-indent: 30px;
+    margin-top: 0; 
+    padding-top: 5px; 
 }
 article h2 {
     font-size: 130%;
