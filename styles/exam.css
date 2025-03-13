@@ -24,7 +24,7 @@ header {
     border-bottom: 2px solid blue;
 }
 article {
-    margin-left: 0; /* Prevent shifting */
+    margin-left: 0; 
 }
 article h1, article h2 {
     font-size: 175%;
