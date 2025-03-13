@@ -66,14 +66,6 @@ aside {
     padding-left: 1em;
     padding-bottom: 1em;
 }
-aside ol ol {
-    list-style-type: none;
-    padding-left: 1em;
-}
-aside ol ol ol {
-    list-style-type: lower-alpha;
-    padding-left: 1.5em;
-}
 footer {
     clear: both;
     border-top: 2px solid darkblue;
