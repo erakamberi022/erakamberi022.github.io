@@ -53,11 +53,6 @@ footer {
     clear: both;
     border-top: 2px solid darkblue;
 }
-footer {
-    clear: both;
-    border-top: 2px solid maroon;
-
-}
 footer p.copyright {
     text-align: center;
     font-size: 80%;
