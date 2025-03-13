@@ -41,7 +41,7 @@ article {
         column-count: 3;
         column-rule: 5px dotted blue;
         column-gap: 2em;
-        margin-left: 5em;
+        margin-left: 4em;
 }
 article p::first-letter {
     font-size: 3em;
