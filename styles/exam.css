@@ -26,7 +26,16 @@ aside {
         background-color: lightblue;
         padding-left: 1em;
         padding-bottom: 1em;
-    }
+ }
+article {
+        clear: both;
+        width: 70%;
+        float: left;
+        column-count: 2;
+        column-rule: 2px dotted maroon;
+        column-gap: 2em;
+        margin-left: 2em;
+}
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
