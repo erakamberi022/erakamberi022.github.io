@@ -90,4 +90,8 @@ border-right: 2px solid white; }
 article {
     clear: both;
 }
+nav {
+    border-bottom: 2px solid blue; 
+    padding-bottom: 10px;
+}
 
