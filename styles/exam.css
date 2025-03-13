@@ -23,6 +23,10 @@ a:hover, a:focus {
 header {
     border-bottom: 2px solid maroon;
 }
+header img {
+    float: left;
+    margin-left: 2em;
+}
 aside {
         width: 20%;
         float: right;
