@@ -42,9 +42,9 @@ article {
         width: 75%;
         float: left;
         column-count: 3;
-        column-rule: 2px dotted blue;
+        column-rule: 5px dotted blue;
         column-gap: 2em;
-        margin-left: 2em;
+        margin-left: 3em;
 }
 article img {
     float: left;
