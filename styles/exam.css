@@ -20,6 +20,9 @@ a:hover, a:focus {
     border: 3px blue;
     border-style: dotted solid;
 }
+header {
+    border-bottom: 2px solid maroon;
+}
 aside {
         width: 20%;
         float: right;
