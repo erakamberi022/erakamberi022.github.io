@@ -42,7 +42,11 @@ article {
         width: 75%;
         float: left;
         column-count: 3;
-        column-rule: 10px dotted blue;
+<<<<<<< HEAD
+        column-rule: 2px dotted blue;
+=======
+        column-rule: 5px dotted blue;
+>>>>>>> c33ee181efc659326bd3144ed63f61c162fc3c86
         column-gap: 2em;
         margin-left: 3em;
 }
