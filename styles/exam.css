@@ -30,7 +30,7 @@ article h1, article h2 {
     font-size: 175%;
     color: blue;
     text-align: left;
-    margin-top: -10px; /* Moves h1 up */
+    margin-top: -20px; 
     padding-left: 0;
     text-indent: 0;
     display: block;
