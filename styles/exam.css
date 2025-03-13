@@ -66,6 +66,7 @@ aside {
     padding-left: 1em;
     padding-bottom: 1em;
     margin-top: 90px;
+    border: 2px solid black;
 }
 footer {
     clear: both;
