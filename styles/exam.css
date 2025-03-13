@@ -97,4 +97,7 @@ nav {
     padding-bottom: 10px;
     overflow: hidden;
 }
+article {
+    margin-top: 20px; 
+}
 
