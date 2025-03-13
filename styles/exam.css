@@ -25,7 +25,7 @@ header {
 }
 nav {
     border-bottom: 2px solid blue;
-    padding-bottom: 5px; /* Reduces space under the nav */
+    padding-bottom: 5px; 
 }
 article {
     margin-left: 0; 
