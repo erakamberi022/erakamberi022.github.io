@@ -69,6 +69,19 @@ aside {
     margin-top: 150px;
     border: 2px solid black;
 }
+.roman-list {
+    list-style-type: upper-roman;
+}
+.square-list {
+    list-style-type: square;
+    padding-left: 20px; 
+    margin-bottom: 5px; 
+}
+.letter-list {
+    list-style-type: lower-alpha;
+    padding-left: 40px; 
+    margin-bottom: 15px; 
+}
 footer {
     clear: both;
     border-top: 2px solid darkblue;
