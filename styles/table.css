@@ -38,7 +38,7 @@ html, body {
   /* Style for the third table */
 
 table.third {
-    width: 30%;
+    vertical-align: top;
     border-collapse: collapse;
     font-family: sans-serif;
   
