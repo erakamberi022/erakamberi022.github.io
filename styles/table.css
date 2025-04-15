@@ -52,7 +52,7 @@ table.third {
   }
 
   table.third tbody td {
-    border: 1px solid orangered;
+    border: none;
     padding: 8px;
     vertical-align: top;
   }
@@ -67,10 +67,5 @@ table.third {
     text-align: left;
   }
   
-  table.third tbody td {
-    border: none;
-    padding: 8px;
-    vertical-align: top;
-  }
-  
+
   
