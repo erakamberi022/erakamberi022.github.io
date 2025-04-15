@@ -35,4 +35,54 @@ html, body {
         border-bottom: 2px solid purple;
     }
      /*-----------------------------------------------------------*/
+  /* Style for the third table */
+
+table.third {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
   
+  }
+  /* First header row: TABLE 3 title */
+  
+  table.third thead tr:first-child {
+    background-color: #66cc66;
+    border-top: 2px solid orangered;
+    border-bottom: 1px solid orangered;
+  
+  }
+
+  table.third thead tr:first-child th {
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+  
+  }
+  /* Second header row: Column titles */
+  
+  table.third thead tr:nth-child(2) {
+    background-color: #66cc66;
+    border-bottom: 1px solid orangered;
+  
+  }
+
+  table.third thead tr:nth-child(2) th {
+    padding: 8px;
+    text-align: left;
+  
+  }
+
+  /* Table body rows */
+  
+  table.third tbody td {
+    border: 1px solid orangered;
+    padding: 8px;
+    vertical-align: top;
+  
+  }
+
+  /* Last row styling (optional but cleaner) */
+  
+  table.third tbody tr:last-child {
+    border-bottom: 2px solid orangered;
+  }
