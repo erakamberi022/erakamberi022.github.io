@@ -36,7 +36,7 @@ html, body {
     }
      /*-----------------------------------------------------------*/
 
-table.third thead {
+table.third {
     vertical-align: top;
     border-collapse: collapse;
     font-family: sans-serif;
