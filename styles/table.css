@@ -68,7 +68,7 @@ table.third {
   }
   
   table.third tbody td {
-    border: 1px solid orangered;
+    border: none;
     padding: 8px;
     vertical-align: top;
   }
