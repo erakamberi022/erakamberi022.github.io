@@ -42,7 +42,7 @@ table.third {
     font-family: sans-serif;
   }
 
-  table.third thead tr:first-child {
+  table.third thead {
     background-color: #66cc66;
     border-top: 2px solid orangered;
     border-bottom: 1px solid orangered;
