@@ -35,27 +35,35 @@ html, body {
         border-bottom: 2px solid purple;
     }
      /*-----------------------------------------------------------*/
-    table.third {
-        border-collapse: collapse;
-        border: 2px solid orangered;
-        caption-side: top;
-    }
-    
-    table.third th, table.third td {
-        padding: 0.6em;
-        border: 2px solid orangered;
-        vertical-align: top; /* Align top for multi-row cells */
-    }
-    
-    /* Header styling */
-    table.third thead tr:first-child {
-        border-top: 2px solid orangered;
-        background-color: peachpuff;
-        font-weight: bold;
-        text-align: center;
-    }
-    
-    table.third thead tr:nth-child(2) {
-        background-color: orange;
-        font-weight: bold;
-        
+   /* Table border and layout */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #FF3300; /* matches red border from second image */
+  }
+  
+  /* Header styling */
+  th {
+    background-color: #66cc66; /* green background for header */
+    color: black;
+    padding: 8px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Row styling */
+  td {
+    border: 1px solid #FF3300;
+    padding: 8px;
+  }
+  
+  /* Category column alignment */
+  td:first-child {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Remove duplicate borders */
+  tr:not(:last-child) td {
+    border-bottom: 1px solid #FF3300;
+  }
