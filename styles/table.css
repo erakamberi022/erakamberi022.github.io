@@ -40,6 +40,7 @@ table.third {
     vertical-align: top;
     border-collapse: collapse;
     font-family: sans-serif;
+    border-bottom: 2px solid orangered;
   }
 
   table.third thead tr:first-child th {
@@ -66,8 +67,5 @@ table.third {
     padding: 8px;
     text-align: left;
   }
-  table.third tbody tr:last-child td {
-    border-bottom: 2px solid orangered;
-}
-
+ 
   
