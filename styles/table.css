@@ -55,6 +55,7 @@ table.third {
     border: none;
     padding: 8px;
     vertical-align: top;
+    border-bottom: 2px solid orangered;
   }
   
   table.third thead tr:nth-child(2) {
