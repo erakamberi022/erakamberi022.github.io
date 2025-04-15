@@ -40,7 +40,6 @@ table.third {
     vertical-align: top;
     border-collapse: collapse;
     font-family: sans-serif;
-    margin: 0 auto;
   }
 
   table.third thead tr:first-child {
