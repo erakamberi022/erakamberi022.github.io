@@ -35,35 +35,4 @@ html, body {
         border-bottom: 2px solid purple;
     }
      /*-----------------------------------------------------------*/
-   /* Table border and layout */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 2px solid #FF3300; /* matches red border from second image */
-  }
   
-  /* Header styling */
-  th {
-    background-color: #66cc66; /* green background for header */
-    color: black;
-    padding: 8px;
-    font-weight: bold;
-    text-align: left;
-  }
-  
-  /* Row styling */
-  td {
-    border: 1px solid #FF3300;
-    padding: 8px;
-  }
-  
-  /* Category column alignment */
-  td:first-child {
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  /* Remove duplicate borders */
-  tr:not(:last-child) td {
-    border-bottom: 1px solid #FF3300;
-  }
