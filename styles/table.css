@@ -42,18 +42,21 @@ table.third {
     font-family: sans-serif;
   }
 
-  table.third thead {
+  table.third thead tr:first-child th {
     background-color: #66cc66;
     border-top: 2px solid orangered;
     border-bottom: 1px solid orangered;
-  }
-
-  table.third thead tr:first-child th {
     padding: 8px;
     font-weight: bold;
     text-align: center;
   }
- 
+
+  table.third tbody td {
+    border: 1px solid orangered;
+    padding: 8px;
+    vertical-align: top;
+  }
+  
   table.third thead tr:nth-child(2) {
     background-color: #66cc66;
     border-bottom: 1px solid orangered;
@@ -70,6 +73,4 @@ table.third {
     vertical-align: top;
   }
   
-  table.third tbody tr:last-child {
-    border-bottom: 2px solid orangered;
-  }
+  
