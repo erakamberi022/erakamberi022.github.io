@@ -58,13 +58,11 @@ table.third {
   table.third thead tr:nth-child(2) {
     background-color: #66cc66;
     border-bottom: 1px solid orangered;
-  
   }
 
   table.third thead tr:nth-child(2) th {
     padding: 8px;
     text-align: left;
-  
   }
   
   table.third tbody td {
