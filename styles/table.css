@@ -39,7 +39,6 @@ html, body {
 table.third {
     vertical-align: top;
     border-collapse: collapse;
-    font-family: sans-serif;
     border-bottom: 2px solid orangered;
   }
 
