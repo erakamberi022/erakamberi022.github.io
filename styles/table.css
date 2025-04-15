@@ -34,4 +34,42 @@ html, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
+     /*-----------------------------------------------------------*/
+    table.third {
+        border-collapse: collapse;
+        border: 2px solid orangered;
+        caption-side: top;
+    }
     
+    table.third th, table.third td {
+        padding: 0.6em;
+        border: 2px solid orangered;
+        vertical-align: top; /* Align top for multi-row cells */
+    }
+    
+    /* Header styling */
+    table.third thead tr:first-child {
+        border-top: 2px solid orangered;
+        background-color: peachpuff;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    table.third thead tr:nth-child(2) {
+        background-color: orange;
+        font-weight: bold;
+    }
+    
+    /* Body styling: Optional zebra striping or borders */
+    table.third tbody tr:first-child {
+        border-top: 2px solid orangered;
+    }
+    
+    table.third tbody tr:nth-child(odd) {
+        background-color: #ffe4b5; /* light orange */
+    }
+    
+    table.third tbody tr:last-child {
+        border-bottom: 2px solid orangered;
+    }
+
