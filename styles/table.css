@@ -65,7 +65,7 @@ table.third {
 
   table.third thead tr:nth-child(2) th {
     padding: 8px;
-    text-align: left;
+    text-align: center;
   }
  
   
