@@ -66,4 +66,12 @@ table.third {
     padding: 8px;
     text-align: center;
   }
- 
+  @media only screen and (max-width: 425px) {
+    th, td {
+    display: block;
+    }
+    thead, td.number {
+    display: none;
+    padding: 0;
+    }
+    }
