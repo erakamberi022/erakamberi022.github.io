@@ -1,0 +1,14 @@
+a:hover, a:focus {
+    font-style: italic;
+    color: aqua;
+    border: 3px black;
+    border-style: dotted solid;
+}
+
+main {
+    margin: 2em
+}
+
+img {
+    float: left;
+}
