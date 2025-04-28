@@ -17,13 +17,31 @@ main {
 img {
     float: left;
 }
-/* Footer styling */
-.site-footer {
+/* Reset default margin/padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Make body a flex container */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full screen height */
+  }
+  
+  /* Make the main content push footer down */
+  main {
+    flex: 1;
+  }
+  
+  /* Footer styles */
+  .site-footer {
     background-color: #002D62; /* Dark blue */
     color: white;
-    padding: 20px 0 0 0;
+    padding: 20px 0;
     font-family: Arial, sans-serif;
-    margin: 0;
   }
   
   .footer-container {
@@ -36,15 +54,15 @@ img {
   }
   
   .footer-image img {
-    max-width: 200px; /* You can adjust size */
+    max-width: 200px;
     height: auto;
-    margin-right: 30px; /* Space between picture and contact info */
+    margin-right: 30px;
   }
   
   .footer-columns {
     display: flex;
     flex: 1;
-    justify-content: flex-end; /* Push contact info to the right */
+    justify-content: flex-end;
   }
   
   .footer-column {
@@ -75,4 +93,8 @@ img {
     text-decoration: underline;
   }
   
+  /* Extra: Make sure body content area has spacing if needed */
+  .body-content {
+    padding: 20px;
+  }
   
