@@ -12,11 +12,12 @@ main {
 img {
     float: left;
 }
+
 /* Footer styling */
 .site-footer {
-    background-color: #002D62; /* Dark blue, like Sam Houston State's style */
+    background-color: #002D62; /* Dark blue */
     color: white;
-    padding: 40px 0;
+    padding: 20px 0; /* Smaller padding */
     font-family: Arial, sans-serif;
   }
   
@@ -25,27 +26,27 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: center; /* Center because you only have 1 column now */
+    justify-content: space-between; /* Space between two columns */
     flex-wrap: wrap;
   }
   
   .footer-column {
     flex: 1;
     min-width: 250px;
-    margin: 20px;
+    margin: 10px;
   }
   
   .footer-column h4 {
-    margin-bottom: 20px;
-    font-size: 22px;
-    border-bottom: 2px solid #ffffff;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
   }
   
   .footer-column p {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
   }
   
   .footer-column a {
@@ -54,6 +55,6 @@ img {
   }
   
   .footer-column a:hover {
-    text-decoration: underline; /* Underline emails when hovered */
+    text-decoration: underline;
   }
   
