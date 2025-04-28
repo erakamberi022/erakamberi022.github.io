@@ -12,12 +12,11 @@ main {
 img {
     float: left;
 }
-
 /* Footer styling */
 .site-footer {
     background-color: #002D62; /* Dark blue */
     color: white;
-    padding: 20px 0; /* Smaller padding */
+    padding: 20px 0;
     font-family: Arial, sans-serif;
   }
   
@@ -26,13 +25,25 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between; /* Space between two columns */
+    align-items: center;
     flex-wrap: wrap;
+  }
+  
+  .footer-image img {
+    max-width: 200px; /* You can adjust size */
+    height: auto;
+    margin-right: 30px; /* Space between picture and contact info */
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end; /* Push contact info to the right */
   }
   
   .footer-column {
     flex: 1;
-    min-width: 250px;
+    min-width: 200px;
     margin: 10px;
   }
   
@@ -57,4 +68,5 @@ img {
   .footer-column a:hover {
     text-decoration: underline;
   }
+  
   
