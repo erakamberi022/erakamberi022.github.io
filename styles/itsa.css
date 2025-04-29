@@ -60,7 +60,8 @@ img {                      /* keep whatever size rules you like */
   width: 100%;
   float: none;          /* overrides the global float */
   display: block;
-  margin: 0 auto;       /* centers the block image */
+  margin: 0 auto;  
+  height: auto;     /* centers the block image */
 }
 /* …and only float the little profile logos in <main> */
 main img.profile-pic {     /* give those <img> a class="profile-pic" */
