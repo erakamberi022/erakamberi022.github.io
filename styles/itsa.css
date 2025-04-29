@@ -50,37 +50,31 @@ h1 {
 }
 main {
     margin: 2em
-}
-/* 1.  Remove the blanket float from ALL images … */
-img {                      /* keep whatever size rules you like */
-  max-width: 100px;
+}img {
+  max-width: 100%;     /* responsive images */
   height: auto;
 }
+/* ----- GLOBAL IMAGE DEFAULTS ----- */
+img {
+  max-width: 100%;     /* responsive images */
+  height: auto;
+}
+
+/* ----- BANNER SECTION ----- */
 #Sam_University img {
-  width: 100%;
-  float: none;          /* overrides the global float */
+  width: 100%;         /* spans the entire viewport */
   display: block;
-  margin: 0 auto;  
-  height: auto;     /* centers the block image */
+  margin: 0;
+  float: none;         /* overrides any floats */
 }
-/* …and only float the little profile logos in <main> */
-main img.profile-pic {     /* give those <img> a class="profile-pic" */
+
+/* ----- SMALL PROFILE LOGOS ----- */
+main img.profile-pic {
+  width: 90px;         /* or whatever size you like */
   float: left;
-  margin: 0 1em 1em 0;     /* some breathing room */
+  margin: 0 1em 1em 0;
 }
 
-/* 2.  Center the campus banner */
-#Sam_University {
-  text-align: center;      /* centers the <p> below too */
-  padding: 1rem 0;
-}
-
-#Sam_University img {
-  display: block;          /* block + auto margins = centered */
-  margin: 0 auto;
-  /* explicitly kill any leftover float just in case */
-  float: none;
-}
 html, body {
     margin: 0;
     padding: 0;
