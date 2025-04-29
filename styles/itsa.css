@@ -54,12 +54,6 @@ main {
   max-width: 100%;     /* responsive images */
   height: auto;
 }
-/* ----- GLOBAL IMAGE DEFAULTS ----- */
-img {
-  max-width: 100%;     /* responsive images */
-  height: auto;
-}
-
 /* ----- BANNER SECTION ----- */
 #Sam_University img {
   width: 100%;         /* spans the entire viewport */
