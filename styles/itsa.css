@@ -51,9 +51,6 @@ h1 {
 main {
     margin: 2em
 }
-img {
-    float: left;
-}
 /* 1.  Remove the blanket float from ALL images … */
 img {                      /* keep whatever size rules you like */
   max-width: 100%;
