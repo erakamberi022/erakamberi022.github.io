@@ -56,6 +56,11 @@ img {                      /* keep whatever size rules you like */
   max-width: 50px;
   height: auto;
 }
+#Sam_University img {
+  float: none;          /* overrides the global float */
+  display: block;
+  margin: 0 auto;       /* centers the block image */
+}
 /* …and only float the little profile logos in <main> */
 main img.profile-pic {     /* give those <img> a class="profile-pic" */
   float: left;
