@@ -57,6 +57,7 @@ img {                      /* keep whatever size rules you like */
   height: auto;
 }
 #Sam_University img {
+  width: 100%;
   float: none;          /* overrides the global float */
   display: block;
   margin: 0 auto;       /* centers the block image */
