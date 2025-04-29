@@ -53,7 +53,7 @@ main {
 }
 /* 1.  Remove the blanket float from ALL images … */
 img {                      /* keep whatever size rules you like */
-  max-width: 100px;
+  max-width: 100%;
   height: auto;
 }
 
