@@ -56,11 +56,6 @@ img {                      /* keep whatever size rules you like */
   max-width: 50px;
   height: auto;
 }
-img.Sam_University {                      /* keep whatever size rules you like */
-  max-width: 100%;
-  height: auto;
-}
-
 /* …and only float the little profile logos in <main> */
 main img.profile-pic {     /* give those <img> a class="profile-pic" */
   float: left;
