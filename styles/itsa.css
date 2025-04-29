@@ -53,11 +53,11 @@ main {
 }
 /* 1.  Remove the blanket float from ALL images … */
 img {                      /* keep whatever size rules you like */
-  max-width: 100px;
+  max-width: 50px;
   height: auto;
 }
 img.Sam_University {                      /* keep whatever size rules you like */
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
 }
 
