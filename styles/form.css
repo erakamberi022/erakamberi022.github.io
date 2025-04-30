@@ -58,3 +58,7 @@ textarea {
 .button-wrapper input:hover {
     background-color: #ddd;
 }
+fieldset:last-of-type {
+    display: flex;
+    justify-content: center;
+}
