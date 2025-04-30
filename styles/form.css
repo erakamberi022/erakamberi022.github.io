@@ -41,3 +41,21 @@ textarea {
 #buttons input {
     width: 10em;
 }
+#buttons {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#buttons input {
+    width: 10em;
+    padding: 0.4em;
+    margin: 0 1em;
+    font-size: 1em;
+    border: 1px solid #000;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#buttons input:hover {
+    background-color: #ccc;
+}
