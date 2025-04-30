@@ -41,21 +41,20 @@ textarea {
 #buttons input {
     width: 10em;
 }
-#buttons {
+.button-wrapper {
     display: flex;
     justify-content: center;
-    gap: 1em; 
+    gap: 2em;
     margin-top: 1em;
 }
-#buttons input {
+.button-wrapper input {
     width: 10em;
-    padding: 0.4em;
-    margin: 0 1em;
+    padding: 0.5em;
     font-size: 1em;
-    border: 1px solid #000;
-    background-color: #eee;
+    border: 1px solid black;
+    background-color: #f0f0f0;
     cursor: pointer;
 }
-#buttons input:hover {
-    background-color: #ccc;
+.button-wrapper input:hover {
+    background-color: #ddd;
 }
