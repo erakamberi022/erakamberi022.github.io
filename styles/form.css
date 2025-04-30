@@ -45,7 +45,6 @@ textarea {
     text-align: center;
     margin-top: 1em;
 }
-
 #buttons input {
     width: 10em;
     padding: 0.4em;
@@ -55,7 +54,6 @@ textarea {
     background-color: #eee;
     cursor: pointer;
 }
-
 #buttons input:hover {
     background-color: #ccc;
 }
